@@ -20,7 +20,7 @@ const translations = {
       changeLang: 'Mudar idioma'
     },
     de: {
-      question: 'was ist der Name des Landes?',
+      question: 'Wie heißt das Land?',
       scoreboard: 'Anzeigetafel',
       changeLang: 'Sprache ändern'
     },

@@ -4,7 +4,6 @@ import styled, { css } from '@emotion/native'
 import { ThemeProvider } from 'emotion-theming'
 import flags from '@assets/flags'
 import translations from './translations'
-import names from '@assets/json/names'
 import { countries } from '@assets/json/countries'
 
 const theme = {
@@ -15,6 +14,7 @@ const theme = {
 const optionsNumber = 4;
 const languages = [
   {code:'de', name:'Deutsch'}, 
+  {code:'en', name:'English'}, 
   {code:'es', name:'Español'},
   {code:'fr', name:'Français'},
   {code:'ja', name:'日本語'},
